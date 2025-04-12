@@ -1,29 +1,25 @@
+<h1>Twitter Sentiment Analysis</h1>
+
+**About the Project:**
+
+• This project is about finding the sentiment (positive, negative, or neutral) of text data like tweets, reviews, or comments.
+• We used machine learning and NLP (Natural Language Processing) to build a model that understands the emotion behind the text.
 
 
-About the Project:
+**Project Objective:**
 
-This project is about finding the sentiment (positive, negative, or neutral) of text data like tweets, reviews, or comments.
-We used machine learning and NLP (Natural Language Processing) to build a model that understands the emotion behind the text.
-
-
----
-
-Project Objective:
-
-To create a model that can help understand public opinion, customer feedback, and social media trends by analyzing text data.
+• To create a model that can help understand public opinion, customer feedback, and social media trends by analyzing text data.
 
 
----
+**Dataset Details:**
 
-Dataset Details:
+• File Name: Twitter_Data.csv
 
-File Name: Twitter_Data.csv
+• Columns:
 
-Columns:
+• clean_text: The text content (tweet or comment)
 
-clean_text: The text content (tweet or comment)
-
-category: Sentiment label
+• category: Sentiment label
 
 -1: Negative
 
@@ -32,12 +28,7 @@ category: Sentiment label
 1: Positive
 
 
-
-
-
----
-
-Steps Followed in the Project:
+**Steps Followed in the Project:**
 
 1. Data Loading: Loaded the dataset using Pandas
 
@@ -65,29 +56,25 @@ Steps Followed in the Project:
 
 
 
----
+**Libraries Used:**
 
-Libraries Used:
+• Python
 
-Python
+• Pandas
 
-Pandas
+• Numpy
 
-Numpy
+• NLTK
 
-NLTK
+• Scikit-learn
 
-Scikit-learn
+• Matplotlib
 
-Matplotlib
-
-Google Colab (Jupyter Notebook)
+• Google Colab (Jupyter Notebook)
 
 
 
----
-
-How to Run the Project:
+**How to Run the Project:**
 
 1. Upload the Twitter_Data.csv file to Google Colab
 
@@ -99,20 +86,10 @@ How to Run the Project:
 
 
 
+**Final Result:**
 
----
+• The model successfully predicts the sentiment of any given text
 
-Final Result:
+• Accuracy and performance are good for basic real-world testing
 
-The model successfully predicts the sentiment of any given text
-
-Accuracy and performance are good for basic real-world testing
-
-Useful for analyzing opinions on social media or feedback systems
-
-
-
----
-
-Agar chaaho toh main ab is README ko .md ya .txt file me export karke bhi de sakta hoon. Ready?
-
+• Useful for analyzing opinions on social media or feedback systems
